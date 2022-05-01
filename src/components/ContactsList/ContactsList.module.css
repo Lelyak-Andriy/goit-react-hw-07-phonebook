@@ -1,0 +1,36 @@
+.list {
+  width: 374px;
+  text-align: right;
+  margin: 0 auto;
+}
+.item {
+  font-size: 18px;
+}
+.info {
+  font-weight: 500;
+}
+.button {
+  text-align: center;
+  width: 50px;
+  color: beige;
+  padding: 7px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(182, 77, 108);
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover,
+.button:focus {
+  box-shadow: 4px 4px 8px 0px rgba(199, 25, 155, 0.2);
+  transform: scale(1.04);
+}
+.warning {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(5, 5, 5);
+}
